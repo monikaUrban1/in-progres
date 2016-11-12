@@ -1,0 +1,32 @@
+.header-background {
+	background-image: url("../Images/header-background.jpg.jpg");
+	width: 100%;
+	padding-top: 10px;
+}
+.btn-active {
+	background-color: #f1c40f;
+	background-image: url("../Images/ikona.png");
+	background-repeat: no-repeat;
+	background-position: 15px 50%;
+	padding-left: 50px;
+	border-radius: 0px;
+	font: bold 16pt Calibri, sans-serif;
+	color: white;
+	margin-top: 20px;
+	transition: 0.5s ease;
+}
+.btn-active:hover {
+	background-color: cornflowerblue;
+	color: white;
+}
+blockquote {
+	border-left: none;
+}
+/*media queries=================================================*/
+@media (max-width: 500px) {
+	.btn-active {
+		display: block;
+		margin: 20px auto;
+	}
+
+}
