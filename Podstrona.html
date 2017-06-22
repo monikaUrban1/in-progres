@@ -12,42 +12,115 @@
 		<div class="container">
 			<header class="row">
 				<div class="col-md-5">
-				<blockquote>
-					<p>"W każdej rozłące jest zawsze utajone nowe spotkanie." <cite>Leonid Jakiś tam</cite></p>
-
-				</blockquote>
+					<img src="Images/logo2.png" alt="rozwiedzeni">
 				</div>
-				<div class="col-md-5">
-				<p>zaloguj się</p>
-				<form>
-				<input type="text" name="Login:">
-				<input type="text" name="Email:">
-				</form>
-				</div>
-				<div class="col-md-2">
-				<button class="btn btn-active">Wejść</button>
+				<div class="col-md-7">
+					<blockquote>W każdej rozłące jest zawsze utajone spotkanie</blockquote>
 				</div>
 			</header>
-	</div>
-			<div class="row">
-			<div class="col-md-4">
-				<form>
-					<select>
-						<option>Ser</option>
-						<option>Kiełbasa</option>
-						<option>żurek</option>
-					</select>
-				</form>
-			</div>
-			<div class="col-md-8">
-				
-			</div>
-			</div>
 		</div>
-	
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<div class="main">
+			<div class="row inside">
+				<div class="col-md-5 col-sm-6">
+					<form class="registration">
+						<h2>Rejestracja</h2>
+						<p class="description">Rejestracja jest darmowa...</p>
+						<div class="birthday">
+							<select class="day">
+								<option>Ser</option>
+								<option>Kiełbasa</option>
+								<option>żurek</option>
+							</select>
+							<select class="month">
+								<option>Ser</option>
+								<option>Kiełbasa</option>
+								<option>żurek</option>
+							</select>
+							<select id="years" onload="date()">
+								<option></option>
+							</select>
+						</div>
+						<div class="name">
+							<input type="text" name="Login:" placeholder="Login:" contenteditable="true">
+							<input type="text" name="Email:" placeholder="Email:">
+							<input type="text" name="Hasło:" placeholder="Hasło:">
+						</div>
+						<div class="check">
+						<div class="form-wrapper">
+							<input type="checkbox" name="Akceptuje regulamin">
+							<label>
+							Akceptuje regulamin</label>
+							</div>
+							<div class="form-wrapper">
+							<input type="checkbox" name="Akceptuje regulamin">
+							<label>Akceptuje zasady prywatności</label>
+							</div>
+						</div>
+						<button class="btn registration-button">Zarejestruj mnie</button>
+						<p class="description">Lorem Ipsum is simply dummy text of the printing anting </p>
+					</form>
+				</div>
+				<div class="galery">
+				<div class="col-md-7">
+					<div class="row">
+						<a href="##"><img src="Miniatury/1.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/3.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/4.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/1.jpg" alt="Roma" class="miniatura"></a>
+
+					
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+						<a href="##"><img src="Miniatury/2.jpg" alt="Roma" class="miniatura"></a>
+					</div>
+					</div>
+				</div>
+				</div>
+				<div class="row end">
+				<div class="col-md-3 col-sm-6">
+					<img src="Ikony/person.png" alt="">
+					<p class="description">100% realni ludzie</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="Ikony/padlock.png" alt="">
+					<p class="description">Bezpieczeństwo danych</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="Ikony/cup.png" alt="">
+					<p class="description">24 godzina wsparcie</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="Ikony/circle.png" alt="">
+					<p class="description">Lorem ipsum is simply dummy</p>
+				</div>
+				</div>
+			<footer class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Wszelkie prawa zastrzeżone © 2016 rozwiedzeni.pl</p>
+				</div>
+				<div class="col-md-6">
+
+				</div>
+				</div>
+			</footer>	
+			
+		</div>
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
