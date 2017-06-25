@@ -27,11 +27,5 @@ $().ready(function() {
 			required: "Podaj hasło",
 			minlenght: "Twoje hasło musi być dłuższe niż 5 znaków"
 		}
-		confirm_password: {
-			required: "Potwierdź hasło",
-			minlenght: "Twoje hasło musi być dłuższe niż 5 znaków",
-			equalTo: "Podane hasła nie zgadzaj się"
-		}
 	}
 	);
-}
